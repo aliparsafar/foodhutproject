@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "sofia pro";
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    src: url(./Sofia\ Pro\ Regular\ Az.otf);
+    font-family: "sofia pro";
+}
+
+body {
+    background-color: #12110f;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-section {
+    background-image: url(../images/Rectangle\ 4582.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    align-items: center;
+}
+
+.top-navbar .rightside-nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.top-navbar .rightside-nav .menu-nav ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+.top-navbar .rightside-nav .menu-nav ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.16px;
+    color: #FFFFFF;
+
+}
+
+
+.top-navbar .rightside-nav .download-btn a {
+    background-color: #F65F5F;
+    border-radius: 100px;
+    margin-left: 96px;
+    padding: 10px 20px;
+    color: #0D0D0D;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .leftside-main-header {
+    margin-top: 100px;
+    width: 540px;
+}
+
+
+
+.main-header .leftside-main-header .heading .left-title-span {
+    background-color: #2e1717;
+    padding: 4px 5px;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    width: 139px;
+    gap: 6px;
+    position: relative;
+}
+
+.main-header .leftside-main-header .heading .left-title-span span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #fff;
+}
+
+
+.main-header .leftside-main-header .heading .left-title-span:before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/Vector.png);
+    width: 14px;
+    height: 14px;
+    top: -20px;
+    left: 7px;
+    background-repeat: no-repeat;
+}
+
+.main-header .leftside-main-header .heading h1 {
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 78.3px;
+    color: #fff;
+}
+
+.main-header .leftside-main-header .heading h1 .red {
+    color: #f5464b;
+}
+
+.main-header .leftside-main-header .heading h1 .yellow {
+    color: #ffc45c;
+}
+
+.main-header .leftside-main-header .desc {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.21px;
+    color: #FFFFFF;
+    margin-top: 75px;
+    position: relative;
+    
+   
+}
+
+.main-header .leftside-main-header .desc::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/Decore.png);
+    width: 236px;
+    height: 236px;
+    background-repeat: no-repeat;
+    top: -55px;
+    right: 123px;
+
+}
+
+.main-header .leftside-main-header .search-box form {
+    background-color: #0D0D0D;
+    padding: 6px;
+    width: 400px;
+    border: 0.5px solid #fff;
+    border-radius: 100px;
+    margin-top: 27px;
+    display: flex;
+    margin-bottom: 34px;
+    align-items: center;
+}
+
+.main-header .leftside-main-header .search-box input {
+    background: transparent;
+    border: none;
+  
+}
+
+.main-header .leftside-main-header .search-box button {
+    background-color: #FDCE77;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    margin-left: 165px;
+}
+
+.main-header .leftside-main-header .search-box input::placeholder {
+    margin-left: 20px;
+}
+.main-header .leftside-main-header .search-box img {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+}
+
+
+.main-header .leftside-main-header .main-button {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+}
+
+.onclick-btn img {
+    margin-top: 28px;
+}
+
+
+.main-header .leftside-main-header .main-button .dwn-app {
+    background-color: #F65F5F;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: Sofia Pro;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0D0D0D;
+
+}
+
+.main-header .leftside-main-header .Watch-video {
+    display: flex;
+   
+}
+
+.main-header .leftside-main-header .Watch-video i {
+    background-color: #0D0D0D;
+    color: #F65F5F;
+    padding: 17px 18px;
+    margin-right: 20px;
+    border-radius: 100px;
+    box-shadow: 0px 15px 30px 0px #DF69514D;
+
+}
+
+
+.main-header .leftside-main-header .Watch-video a {
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
